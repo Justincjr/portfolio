@@ -6,6 +6,32 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="icon" type="image/png" href="images/favicon.png" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+		<!-- Additional styling for layout -->
+		<style>
+			.button-image-group {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: center;
+				margin: 20px 0;
+			}
+			.button {
+				margin-bottom: 20px;
+				text-align: center;
+				width: 500px;
+				display: block;
+			}
+			.image {
+				text-align: center;
+				margin-bottom: 40px;
+			}
+			img {
+				width: 100%;
+				max-width: 600px;
+				height: auto;
+			}
+		</style>
 	</head>
 	<body class="is-preload">
 
@@ -31,24 +57,44 @@
 						<li><a href="https://github.com/Justincjr" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
 					</ul>
 				</nav>
+
+				<!-- Main Content -->
 				<div id="main">
 
 					<!-- Post -->
-						<section class="post">
-							<header class="major">
-								<h1>Certificates</h1>
-							</header>
+					<section class="post">
+						<header class="major">
+							<h1>Certificates</h1>
+						</header>
 
-							<!-- Text stuff -->
-								<a href="https://www.coursera.org/account/accomplishments/verify/73ZAQHBI3Y2Z" class="button primary">
-                                    Introduction to Structured Query Language</a></br></br>
-								<a href="https://credentials.nus.edu.sg/7821b601-8705-4563-ba32-f75f350f29d8" class="button primary">Orbital</a></br></br>
-								<a href="https://www.coursera.org/account/accomplishments/verify/QCNM1WBI5QWF" class="button primary">
-                                    Platform Thinking: what’s beyond Uber?</a></br></br>
-                        </section>
-					</div>
+						<!-- Button and Image Group 1 -->
+						<div class="button-image-group">
+							<a href="https://www.coursera.org/account/accomplishments/verify/73ZAQHBI3Y2Z" class="button primary">Introduction to Structured Query Language</a>
+							<div class="image">
+								<img src="images/SQLcert.jpeg" alt="SQL Certificate" />
+							</div>
+						</div>
 
-	<!-- Scripts -->
+						<!-- Button and Image Group 2 -->
+						<div class="button-image-group">
+							<a href="https://credentials.nus.edu.sg/7821b601-8705-4563-ba32-f75f350f29d8" class="button primary">Orbital</a>
+							<div class="image">
+								<img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/certificate/112801308" alt="Orbital Certificate" />
+							</div>
+						</div>
+
+						<!-- Button and Image Group 3 -->
+						<div class="button-image-group">
+							<a href="https://www.coursera.org/account/accomplishments/verify/QCNM1WBI5QWF" class="button primary">Platform Thinking: what’s beyond Uber?</a>
+							<div class="image">
+								<img src="images/PlatformCert.jpeg" alt="Platform Thinking Certificate" />
+							</div>
+						</div>
+
+					</section>
+				</div>
+
+		<!-- Scripts -->
 		<script src="assets/js/jquery.min.js"></script>
 		<script src="assets/js/jquery.scrollex.min.js"></script>
 		<script src="assets/js/jquery.scrolly.min.js"></script>
@@ -57,5 +103,5 @@
 		<script src="assets/js/util.js"></script>
 		<script src="assets/js/main.js"></script>
 
-</body>
+	</body>
 </html>
